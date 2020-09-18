@@ -1,0 +1,9 @@
+C:\Users\Jaron\Desktop\ContainerOpdracht\ContainerOpdracht\bin\Debug\ContainerOpdracht.exe.config
+C:\Users\Jaron\Desktop\ContainerOpdracht\ContainerOpdracht\bin\Debug\ContainerOpdracht.exe
+C:\Users\Jaron\Desktop\ContainerOpdracht\ContainerOpdracht\bin\Debug\ContainerOpdracht.pdb
+C:\Users\Jaron\Desktop\ContainerOpdracht\ContainerOpdracht\obj\Debug\ContainerOpdracht.csprojAssemblyReference.cache
+C:\Users\Jaron\Desktop\ContainerOpdracht\ContainerOpdracht\obj\Debug\ContainerOpdracht.Form1.resources
+C:\Users\Jaron\Desktop\ContainerOpdracht\ContainerOpdracht\obj\Debug\ContainerOpdracht.Properties.Resources.resources
+C:\Users\Jaron\Desktop\ContainerOpdracht\ContainerOpdracht\obj\Debug\ContainerOpdracht.csproj.GenerateResource.cache
+C:\Users\Jaron\Desktop\ContainerOpdracht\ContainerOpdracht\obj\Debug\ContainerOpdracht.exe
+C:\Users\Jaron\Desktop\ContainerOpdracht\ContainerOpdracht\obj\Debug\ContainerOpdracht.pdb
