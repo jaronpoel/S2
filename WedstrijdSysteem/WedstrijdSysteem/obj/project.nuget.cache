@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "MO0zHedSyjBA4vKNrZ4d1knuAI7xIoxauntfgtg9czPF9mqTDw3tORFZNRbj3S/I0NSuHqfaUqIh0JpIdsSBVQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\WedstrijdSysteem\\WedstrijdSysteem.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jaron\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
