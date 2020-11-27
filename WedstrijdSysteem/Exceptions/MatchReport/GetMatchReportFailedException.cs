@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace Exceptions.MatchReport
 {
-    class GetMatchReportFailedException : Exception
+    public class GetMatchReportFailedException : Exception
     {
         public GetMatchReportFailedException()
         {
 
         }
 
-        public AuthenticationFailedException(string message) : base(message)
+        public GetMatchReportFailedException(string message) : base(message)
         {
 
         }

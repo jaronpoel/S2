@@ -1,33 +1,19 @@
-﻿@model WedstrijdSysteem.Models.ReportViewModel
+﻿@model WedstrijdSysteem.Models.AllMatchReportsViewModel
+@using Logic;
 @{
     ViewData["Title"] = "New Report";
 }
 
-<head>
-    <title>New Report</title>
-</head>
-<body>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <form asp-action="NewReportAdded">
-                    <h4>Create a new report.</h4>
-                    <hr />
-                    <div asp-validation-summary="All" class="text-danger"></div>
-                    <div class="form-group">
-                        <label asp-for="Title"></label>
-                        <input asp-for="Title" class="form-control" />
-                        <span asp-validation-for="Title" class="text-danger"></span>
-                    </div>
-
-                    <div class="form-group">
-                        <label asp-for="Report"></label>
-                        <textarea asp-for="Report" class="form-control" style="height: 425px;" /></textarea>
-                        <span asp-validation-for="Report" class="text-danger"></span>
-                    </div>
-                    <button type="submit" class="button button-wide">Make</button>
-                </form>
+    <body class="ViewShoppinglists"> <!-- nog aanpassen de class name-->
+        <!-- Overzicht met de matchreports -->
+        <div class="container">
+            <div class="row">
+                <div class="row justify-content-md-center">
+                    @foreach (MatchReport matchreport in Model.ListOfMatchReports)
+                    {
+                        <a class="col-md-auto matchReportOversight" asp-action="SingleReport" asp-route-id="@matchreport.Id" asp-controller="Reports"><div class="matchreport"><p>Report van: @matchreport.Title</p></div></a>
+                    }
+                </div>
             </div>
         </div>
-    </div>
-</body>
+    </body>

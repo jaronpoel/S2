@@ -1,0 +1,9 @@
+C:\Users\Jaron\Desktop\School\S2\Alleen\WedstrijdSysteem\Exceptions\bin\Debug\Exceptions.dll
+C:\Users\Jaron\Desktop\School\S2\Alleen\WedstrijdSysteem\Exceptions\bin\Debug\Exceptions.pdb
+C:\Users\Jaron\Desktop\School\S2\Alleen\WedstrijdSysteem\Exceptions\obj\Debug\Exceptions.csprojAssemblyReference.cache
+C:\Users\Jaron\Desktop\School\S2\Alleen\WedstrijdSysteem\Exceptions\obj\Debug\Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\Jaron\Desktop\School\S2\Alleen\WedstrijdSysteem\Exceptions\obj\Debug\Exceptions.dll
+C:\Users\Jaron\Desktop\School\S2\Alleen\WedstrijdSysteem\Exceptions\obj\Debug\Exceptions.pdb
+C:\Users\Jaron\Desktop\School\S2\Alleen\WedstrijdSysteem\Exceptions\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Jaron\Desktop\School\S2\Alleen\WedstrijdSysteem\Exceptions\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Jaron\Desktop\School\S2\Alleen\WedstrijdSysteem\Exceptions\obj\Debug\Exceptions.csproj.CopyComplete

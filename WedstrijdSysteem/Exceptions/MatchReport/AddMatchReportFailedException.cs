@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Exceptions.MatchReport
 {
-    class AddMatchReportFailedException : Exception
+    public class AddMatchReportFailedException : Exception
     {
         public AddMatchReportFailedException()
         {

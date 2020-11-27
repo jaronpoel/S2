@@ -9,7 +9,7 @@ namespace Dal
 {
     public class DataConnection
     {
-        private static readonly string ConnectionString = "";
+        private static readonly string ConnectionString = @"Data Source = (LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Jaron\Desktop\School\S2\Alleen\WedstrijdSysteem\Dal\WedstrijdSysteem.mdf";
 
         public static SqlConnection GetConnection()
         {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Logic
 {
-    class ClubTeamCollection
+    public class ClubTeamCollection
     {
         public void AddTeam(ClubTeam clubTeam)
         {

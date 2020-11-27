@@ -4,6 +4,70 @@
     "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\WedstrijdSysteem\\WedstrijdSysteem.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\Dal\\Dal.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\Dal\\Dal.csproj",
+        "projectName": "Dal",
+        "projectPath": "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\Dal\\Dal.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\Exceptions\\Exceptions.csproj": {
+                "projectPath": "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\Exceptions\\Exceptions.csproj"
+              },
+              "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\Interfaces\\Interfaces.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\Exceptions\\Exceptions.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\Exceptions\\Exceptions.csproj",
+        "projectName": "Exceptions",
+        "projectPath": "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\Exceptions\\Exceptions.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\Interfaces\\Interfaces.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\Interfaces\\Interfaces.csproj",
+        "projectName": "Interfaces",
+        "projectPath": "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\Interfaces\\Interfaces.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\Logic\\Logic.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\Logic\\Logic.csproj",
+        "projectName": "Logic",
+        "projectPath": "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\Logic\\Logic.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\Dal\\Dal.csproj": {
+                "projectPath": "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\Dal\\Dal.csproj"
+              },
+              "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\Interfaces\\Interfaces.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\WedstrijdSysteem\\WedstrijdSysteem.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -29,7 +93,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\Logic\\Logic.csproj": {
+                "projectPath": "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\Logic\\Logic.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -40,6 +108,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

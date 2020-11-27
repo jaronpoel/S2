@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Exceptions.ClubTeam
 {
-    class AddClubTeamFailedException : Exception
+    public class AddClubTeamFailedException : Exception
     {
         public AddClubTeamFailedException()
         {

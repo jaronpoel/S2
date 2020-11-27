@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Dal.Context;
+using Interfaces.DTO;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,8 +8,9 @@ using System.Threading.Tasks;
 
 namespace Logic
 {
-    class MatchReportCollection
+    public class MatchReportCollection
     {
+        private MatchReportSqlContext matchreportSqlContext { get; } = new MatchReportSqlContext();
         public void DeleteMatchReport(MatchReport matchReport)
         {
             throw new NotImplementedException();
@@ -15,7 +18,7 @@ namespace Logic
 
         public List<MatchReport> GetAllMatchReports()
         {
-            throw new NotImplementedException();
+            return DTOConverter.GetAllMatchReports(matchreportSqlContext.GetAllMatchReports());
         }
 
         public MatchReport GetMatchReportByID(int id)
@@ -23,7 +26,7 @@ namespace Logic
             throw new NotImplementedException();
         }
 
-        public MatchReport AddMatchReport()
+        public void AddMatchReport()
         {
             throw new NotImplementedException();
         }

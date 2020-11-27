@@ -21,6 +21,12 @@ namespace Logic
             Email = email;
         }
 
+        public User(int id, string username)
+        {
+            Id = id;
+            Username = username;
+        }
+
         public void SetName(string name)
         {
             throw new NotImplementedException();
