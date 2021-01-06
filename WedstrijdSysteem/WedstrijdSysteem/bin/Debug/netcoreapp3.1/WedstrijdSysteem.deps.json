@@ -405,6 +405,18 @@
           "Exceptions.dll": {}
         }
       },
+      "Factory/1.0.0": {
+        "dependencies": {
+          "Dal": "1.0.0",
+          "Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "Factory.dll": {}
+        },
+        "compile": {
+          "Factory.dll": {}
+        }
+      },
       "Interfaces/1.0.0": {
         "runtime": {
           "Interfaces.dll": {}
@@ -416,6 +428,7 @@
       "Logic/1.0.0": {
         "dependencies": {
           "Dal": "1.0.0",
+          "Factory": "1.0.0",
           "Interfaces": "1.0.0"
         },
         "runtime": {
@@ -2140,6 +2153,11 @@
       "sha512": ""
     },
     "Exceptions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Factory/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

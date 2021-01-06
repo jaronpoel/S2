@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Dal.Context;
+using Factory;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,6 +21,14 @@ namespace Logic
             Team = team;
         }
 
+        //Factory aanroepen
+        private readonly IClubTeam ClubTeamDAL;
+        public ClubTeam()
+        {
+            ClubTeamDAL = FactoryDal.CreateClubTeamDal();
+        }
+
+        //Begin van de Methodes aanroepen
         public void SetClub(string club)
         {
             throw new NotImplementedException();

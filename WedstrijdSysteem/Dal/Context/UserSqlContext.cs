@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Dal.Context
 {
-    public class UserSqlContext
+    public class UserSqlContext : IUser, IUserCollection
     {
         public void SetName(string name)
         {
@@ -19,7 +19,7 @@ namespace Dal.Context
                 {
                     connection.Open();
                     SqlCommand command = connection.CreateCommand();
-                    command.CommandText = "UPDATE INTO [User] (Name) VALUES (@Name)";
+                    command.CommandText = "UPDATE [User] SET Username = @Name WHERE Id = 1";
                     command.Parameters.AddWithValue("@Name", name);
                     command.ExecuteNonQuery();
                 }
@@ -38,8 +38,8 @@ namespace Dal.Context
                 {
                     connection.Open();
                     SqlCommand command = connection.CreateCommand();
-                    command.CommandText = "UPDATE INTO [User] (Password) VALUES (@Email)";
-                    command.Parameters.AddWithValue("@Email", password);
+                    command.CommandText = "UPDATE [User] SET Password = @Password WHERE Id = 1";
+                    command.Parameters.AddWithValue("@Password", password);
                     command.ExecuteNonQuery();
                 }
             }
@@ -57,7 +57,7 @@ namespace Dal.Context
                 {
                     connection.Open();
                     SqlCommand command = connection.CreateCommand();
-                    command.CommandText = "UPDATE INTO [User] (Email) VALUES (@Email)";
+                    command.CommandText = "UPDATE [User] SET Email = @Email WHERE Id = 1";
                     command.Parameters.AddWithValue("@Email", email);
                     command.ExecuteNonQuery();
                 }

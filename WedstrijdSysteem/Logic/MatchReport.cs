@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Dal.Context;
+using Factory;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,25 +14,35 @@ namespace Logic
         public DateTime Date { get; set; }
         public string Title { get; set; }
         public string Report { get; set; }
-        public string MadeBy { get; set; }
+        public string UserId { get; set; }
 
-        public MatchReport(int id, DateTime date ,string title, string report, string madeBy)
+        public MatchReport(int id, DateTime date ,string title, string report, string userid)
         {
             Id = id;
             Date = date;
             Title = title;
             Report = report;
-            MadeBy = madeBy;
+            UserId = userid;
         }
 
+        //Factory aanroepen
+        private readonly IMatchReport MatchreportDAL;
+        public MatchReport()
+        {
+            MatchreportDAL = FactoryDal.CreateMatchReportDal();
+        }
+
+        //Begin van de Methodes aanroepen
         public void SetTitle(string name)
         {
             throw new NotImplementedException();
+            //MatchreportDAL.SetTitle(name);
         }
 
         public void SetReport(string report)
         {
             throw new NotImplementedException();
+            //MatchreportDAL.SetReport(report);
         }
     }
 }

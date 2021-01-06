@@ -47,6 +47,12 @@
     <Compile Include="DTO\ClubTeamDto.cs" />
     <Compile Include="DTO\MatchReportDto.cs" />
     <Compile Include="DTO\UserDto.cs" />
+    <Compile Include="Interfaces\IUserCollection.cs" />
+    <Compile Include="Interfaces\IUser.cs" />
+    <Compile Include="Interfaces\IClubTeamCollection.cs" />
+    <Compile Include="Interfaces\IClubTeam.cs" />
+    <Compile Include="Interfaces\IMatchReportCollection.cs" />
+    <Compile Include="Interfaces\IMatchReport.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

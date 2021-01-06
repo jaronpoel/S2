@@ -1,4 +1,5 @@
 ﻿using Dal.Context;
+using Factory;
 using Interfaces.DTO;
 using System;
 using System.Collections.Generic;
@@ -10,7 +11,14 @@ namespace Logic
 {
     public class MatchReportCollection
     {
-        private MatchReportSqlContext matchreportSqlContext { get; } = new MatchReportSqlContext();
+        //Factory aanroepen
+        private readonly IMatchReportCollection MatchreportCollectionDAL;
+        public MatchReportCollection()
+        {
+            MatchreportCollectionDAL = FactoryDal.CreateMatchReporCollectiontDal();
+        }
+       
+        //Begin van de Methodes aanroepen
         public void DeleteMatchReport(MatchReport matchReport)
         {
             throw new NotImplementedException();
@@ -18,17 +26,17 @@ namespace Logic
 
         public List<MatchReport> GetAllMatchReports()
         {
-            return DTOConverter.GetAllMatchReports(matchreportSqlContext.GetAllMatchReports());
+            return DTOConverter.GetAllMatchReports(MatchreportCollectionDAL.GetAllMatchReports());
         }
 
         public MatchReport GetMatchReportByID(int id)
         {
-            throw new NotImplementedException();
+            return DTOConverter.GetMatchReportFromDTO(MatchreportCollectionDAL.GetMatchReportByID(id));
         }
 
-        public void AddMatchReport()
+        public void AddMatchReport(MatchReport matchreport)
         {
-            throw new NotImplementedException();
+            MatchreportCollectionDAL.AddMatchReport(DTOConverter.GetMatchReportDTO(matchreport));
         }
     }
 }

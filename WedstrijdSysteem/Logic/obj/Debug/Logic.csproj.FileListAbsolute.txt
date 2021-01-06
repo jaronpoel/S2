@@ -15,3 +15,5 @@ C:\Users\Jaron\Desktop\School\S2\Alleen\WedstrijdSysteem\Logic\obj\Debug\Logic.d
 C:\Users\Jaron\Desktop\School\S2\Alleen\WedstrijdSysteem\Logic\obj\Debug\Logic.pdb
 C:\Users\Jaron\Desktop\School\S2\Alleen\WedstrijdSysteem\Logic\bin\Debug\System.Data.SqlClient.dll
 C:\Users\Jaron\Desktop\School\S2\Alleen\WedstrijdSysteem\Logic\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Jaron\Desktop\School\S2\Alleen\WedstrijdSysteem\Logic\bin\Debug\Factory.dll
+C:\Users\Jaron\Desktop\School\S2\Alleen\WedstrijdSysteem\Logic\bin\Debug\Factory.pdb

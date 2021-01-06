@@ -36,6 +36,28 @@
         "net472": {}
       }
     },
+    "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\Factory\\Factory.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\Factory\\Factory.csproj",
+        "projectName": "Factory",
+        "projectPath": "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\Factory\\Factory.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\Dal\\Dal.csproj": {
+                "projectPath": "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\Dal\\Dal.csproj"
+              },
+              "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\Interfaces\\Interfaces.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\Interfaces\\Interfaces.csproj": {
       "restore": {
         "projectUniqueName": "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\Interfaces\\Interfaces.csproj",
@@ -56,6 +78,9 @@
             "projectReferences": {
               "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\Dal\\Dal.csproj": {
                 "projectPath": "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\Dal\\Dal.csproj"
+              },
+              "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\Factory\\Factory.csproj": {
+                "projectPath": "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\Factory\\Factory.csproj"
               },
               "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\Interfaces\\Interfaces.csproj": {
                 "projectPath": "C:\\Users\\Jaron\\Desktop\\School\\S2\\Alleen\\WedstrijdSysteem\\Interfaces\\Interfaces.csproj"

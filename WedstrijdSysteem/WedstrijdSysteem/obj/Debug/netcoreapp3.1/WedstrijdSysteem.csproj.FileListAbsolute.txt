@@ -56,3 +56,6 @@ C:\Users\Jaron\Desktop\School\S2\Alleen\WedstrijdSysteem\WedstrijdSysteem\bin\De
 C:\Users\Jaron\Desktop\School\S2\Alleen\WedstrijdSysteem\WedstrijdSysteem\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Jaron\Desktop\School\S2\Alleen\WedstrijdSysteem\WedstrijdSysteem\obj\Debug\netcoreapp3.1\WedstrijdSysteem.csproj.CoreCompileInputs.cache
 C:\Users\Jaron\Desktop\School\S2\Alleen\WedstrijdSysteem\WedstrijdSysteem\obj\Debug\netcoreapp3.1\WedstrijdSysteem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Jaron\Desktop\School\S2\Alleen\WedstrijdSysteem\WedstrijdSysteem\bin\Debug\netcoreapp3.1\Factory.dll
+C:\Users\Jaron\Desktop\School\S2\Alleen\WedstrijdSysteem\WedstrijdSysteem\bin\Debug\netcoreapp3.1\Factory.pdb
+C:\Users\Jaron\Desktop\School\S2\Alleen\WedstrijdSysteem\WedstrijdSysteem\obj\Debug\netcoreapp3.1\Razor\Views\ClubTeam\NewClubTeam.cshtml.g.cs

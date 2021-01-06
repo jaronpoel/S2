@@ -58,6 +58,10 @@
       <Project>{76da9bd4-c392-4cbe-a1bc-c50f342e5e5f}</Project>
       <Name>Dal</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Factory\Factory.csproj">
+      <Project>{4ADA3773-3C0F-4F2C-9E03-02F7561928FC}</Project>
+      <Name>Factory</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Interfaces\Interfaces.csproj">
       <Project>{219c6171-d302-4ecb-a5e0-4db554584d14}</Project>
       <Name>Interfaces</Name>

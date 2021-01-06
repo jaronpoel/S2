@@ -9,6 +9,7 @@ namespace Logic
 {
     public class DTOConverter
     {
+        //MatchReports
         internal static List<MatchReport> GetAllMatchReports(List<MatchReportDto> list)
         {
             List<MatchReport> matchReports = new List<MatchReport>();
@@ -21,7 +22,20 @@ namespace Logic
 
         internal static MatchReport GetMatchReportFromDTO(MatchReportDto dto)
         {
-            return new MatchReport(dto.Id, dto.Date, dto.Title, dto.Report, dto.MadeBy);
+            return new MatchReport(dto.Id, dto.Date, dto.Title, dto.Report, dto.UserId);
+        }
+
+        internal static MatchReportDto GetMatchReportDTO(MatchReport matchreport)
+        {
+            MatchReportDto dto = new MatchReportDto
+            {
+                Id = matchreport.Id,
+                Date = matchreport.Date,
+                Title = matchreport.Title,
+                Report = matchreport.Report,
+                UserId = matchreport.UserId
+            };
+            return dto;
         }
     }
 }

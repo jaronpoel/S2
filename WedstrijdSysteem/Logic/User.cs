@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Dal.Context;
+using Factory;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,19 +29,30 @@ namespace Logic
             Username = username;
         }
 
+        //Factory aanroepen
+        private readonly IUser UserDAL;
+        public User()
+        {
+            UserDAL = FactoryDal.CreateUserDal();
+        }
+
+        //Begin van de Methodes aanroepen
         public void SetName(string name)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException(); 
+            UserDAL.SetName(name);
         }
 
         public void SetPassword(string password)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            UserDAL.SetPassword(password);
         }
 
         public void SetEmail(string email)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            UserDAL.SetEmail(email);
         }
     }
 }

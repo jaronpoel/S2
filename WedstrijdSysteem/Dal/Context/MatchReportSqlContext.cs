@@ -7,7 +7,7 @@ using System.Data.SqlClient;
 
 namespace Dal.Context
 {
-    public class MatchReportSqlContext
+    public class MatchReportSqlContext : IMatchReport, IMatchReportCollection
     {
         public void SetTitle(string name)
         {

@@ -1,4 +1,5 @@
-﻿@{
+﻿@using Logic
+@{
     ViewBag.Title = "Report";
 }
 <head>
@@ -8,14 +9,14 @@
     <div class="container">
         <div class="col-md-12">
             <div>
-                <h1>Title</h1>
+                <h1>@ViewBag.MatchReport.Title</h1>
             </div>
         </div>
         <hr>
         <div class="col-md-12">
             <h2>Report:</h2>
             <div>
-                <p>Lorem ipsum</p>
+                <p>@ViewBag.MatchReport.Report</p>
             </div>
         </div>
     </div>

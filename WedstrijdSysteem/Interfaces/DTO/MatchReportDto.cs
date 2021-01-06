@@ -12,6 +12,6 @@ namespace Interfaces.DTO
         public DateTime Date { get; set; }
         public string Title { get; set; }
         public string Report { get; set; }
-        public string MadeBy { get; set; }
+        public string UserId { get; set; }
     }
 }

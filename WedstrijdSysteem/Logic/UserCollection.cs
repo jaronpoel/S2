@@ -5,21 +5,28 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Dal.Context;
+using Factory;
 
 namespace Logic
 {
     public class UserCollection
     {
-        private UserSqlContext userSqlContext { get; } = new UserSqlContext();
-        
+        //Factory aanroepen
+        private readonly IUserCollection UserCollectionDAL;
+        public UserCollection()
+        {
+            UserCollectionDAL = FactoryDal.CreateUserCollectionDal();
+        }
+
+        //Begin van de Methodes aanroepen
         public void SignUp(string username, string password, string email)
         {
-            userSqlContext.SignUp(username, password, email);
+            UserCollectionDAL.SignUp(username, password, email);
         }
 
         public User SignIn(string username, string password)
         {
-            UserDto userdto = userSqlContext.SignIn(username, password);
+            UserDto userdto = UserCollectionDAL.SignIn(username, password);
             User user = new User(userdto.Id, userdto.Username);
             return user;
         }

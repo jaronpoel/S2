@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Dal.Context
 {
-    public class ClubTeamSqlContext
+    public class ClubTeamSqlContext : IClubTeam, IClubTeamCollection
     {
         public void SetClub(string club)
         {

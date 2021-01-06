@@ -33,6 +33,7 @@
                                         @Context.Session.GetString("username")
                                     </a>
                                     <div class="dropdown-menu">
+                                        <a class="dropdown-item" asp-controller="Reports" asp-action="NewReport">New Match</a>
                                         <a class="dropdown-item" asp-controller="User" asp-action="Info" asp-route-id="@Context.Session.GetInt32("userid")">Account</a>
                                         <a class="dropdown-item" asp-controller="User" asp-action="SignOut">Sign out</a>
                                     </div>

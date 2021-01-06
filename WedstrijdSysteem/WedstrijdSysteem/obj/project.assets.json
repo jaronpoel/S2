@@ -153,6 +153,19 @@
           "bin/placeholder/Exceptions.dll": {}
         }
       },
+      "Factory/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Dal": "1.0.0",
+          "Interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Factory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Factory.dll": {}
+        }
+      },
       "Interfaces/1.0.0": {
         "type": "project",
         "compile": {
@@ -166,6 +179,7 @@
         "type": "project",
         "dependencies": {
           "Dal": "1.0.0",
+          "Factory": "1.0.0",
           "Interfaces": "1.0.0"
         },
         "compile": {
@@ -497,6 +511,11 @@
       "type": "project",
       "path": "../Exceptions/Exceptions.csproj",
       "msbuildProject": "../Exceptions/Exceptions.csproj"
+    },
+    "Factory/1.0.0": {
+      "type": "project",
+      "path": "../Factory/Factory.csproj",
+      "msbuildProject": "../Factory/Factory.csproj"
     },
     "Interfaces/1.0.0": {
       "type": "project",
